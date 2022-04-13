@@ -1,0 +1,87 @@
+.section {
+	padding: 0 0 3rem;
+}
+
+.picture {
+	background-image: url('../../assets/bg-intro-mobile.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.picture img {
+	top: -2.5rem;
+	max-width: 100%;
+	margin-left: auto;
+	padding-inline: clamp(1rem, 3vw, 5vw);
+}
+
+.text {
+	padding-inline: clamp(2rem, 1.43rem + 2.86vw, 4rem);
+}
+
+.text h1 {
+	/*font-size: 2.2rem;*/
+	font-size: 1.55rem;
+}
+
+.text p {
+	font-weight: 400;
+	margin-bottom: 1.6em;
+	text-align: justify;
+}
+
+.button {
+	display: flex;
+	justify-content: center;
+}
+
+@media (min-width: 768px) {
+	.section {
+		display: flex;
+		overflow-x: clip;
+		align-items: center;
+		flex-direction: row-reverse;
+		height: 100vh;
+		min-height: 500px;
+		max-height: 1080px;
+		/*padding-left: 1rem;*/
+		padding-bottom: 0;
+		/*padding-left: */
+	}
+
+	.text {
+		width: 75%;
+		padding-right: 0;
+	}
+
+	.text h1 {
+		font-size: 2rem;
+	}
+
+	.text p {
+		font-size: .9rem;
+		text-align: left;
+	}
+
+	.picture {
+		position: relative;
+		/*width: clamp(100%, 100% + 5vw, 120%);*/
+		align-self: center;
+		width: 120%;
+		height: 100%;
+		background-image: url('../../assets/bg-intro-desktop.svg');
+	}
+
+	.picture img {
+		position: absolute;
+		top: 0;
+		left: 5rem;
+		display: block;
+		max-width: unset;
+		height: 115%;
+	}
+
+	.button {
+		justify-content: flex-start;
+	}
+}

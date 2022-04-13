@@ -1,0 +1,18 @@
+.gradientBtn {
+	font-size: 0.825rem;
+	font-weight: 600;
+	display: block;
+	/*margin: 0 auto;*/
+	padding: 1.2em 2.5em;
+	cursor: pointer;
+	color: var(--veryLightGray);
+	border-radius: 2em;
+	background: linear-gradient(to right, var(--limeGreen), var(--brightCyan));
+}
+
+@media (min-width: 768px) {
+	.gradientBtn {
+		font-size: .8rem;;
+		padding: .6em 1.6em;
+	}
+}
