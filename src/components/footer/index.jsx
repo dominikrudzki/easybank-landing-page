@@ -46,6 +46,10 @@ export const Footer = () => {
 					</div>
 					<p className={ styles.copy }>&copy; Easybank. All Rights Reserver</p>
 				</div>
+				<div className={ styles.attribution }>
+					Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+					Coded by <a href="https://github.com/dominikrudzki">Dominik Rudzki</a>.
+				</div>
 			</footer>
 		</div>
 	)

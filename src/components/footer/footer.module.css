@@ -3,6 +3,7 @@
 }
 
 .footer {
+	position: relative;
 	text-align: center;
 	padding-block: 2rem;
 }
@@ -46,6 +47,21 @@
 
 .copy {
 	color: var(--grayishBlue);
+}
+
+
+.footer .attribution {
+	font-size: 12px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	padding: 2px;
+	border-radius: 5px 0 0;
+	background-color: #f88268;
+}
+
+.footer .attribution a {
+	color: var(--white);
 }
 
 @media (min-width: 1024px) {
