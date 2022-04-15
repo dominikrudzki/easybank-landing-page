@@ -26,7 +26,7 @@ export const Navbar = () => {
 				<header className={ styles.nav }>
 					<img src={ logo } alt="logo"/>
 
-					<ul className={ `${ styles.list } ${ (open && window.screen.width < 1024) && styles.active }` }>
+					<ul className={ `${ styles.list } ${ (open && window.innerWidth < 1024 ? styles.active : '') }` }>
 						{ navLinks.map((link, i) =>
 							<li
 								onClick={ () => setOpen(!open) }
