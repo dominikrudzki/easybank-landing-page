@@ -8,7 +8,6 @@
 	--lightGrayishBlue: hsl(220, 16%, 96%);
 	/* Body Copy */
 	--veryLightGray: hsl(0, 0%, 98%);
-
 	--white: hsl(0, 0%, 100%);
 }
 
@@ -52,8 +51,6 @@ section {
 header,
 section,
 footer {
-	/*padding-inline: 2rem;*/
-	/*padding-inline: 4rem;*/
 	max-width: 2200px;
 	margin: 0 auto;
 	padding-inline: clamp(2rem, 1.43rem + 2.86vw, 4rem);

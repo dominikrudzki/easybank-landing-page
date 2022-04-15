@@ -44,7 +44,7 @@ export const Footer = () => {
 					<div className={ styles.button }>
 						<Button/>
 					</div>
-					<p className={ styles.copy }>&copy; Easybank. All Rights Reserver</p>
+					<p className={ styles.copy }>&copy; Easybank. All Rights Reserved</p>
 				</div>
 				<div className={ styles.attribution }>
 					Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.

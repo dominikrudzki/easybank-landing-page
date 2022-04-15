@@ -71,9 +71,6 @@
 		text-align: unset;
 	}
 
-	.footer div {
-	}
-
 	.footer > div:first-of-type {
 		display: flex;
 		flex-direction: column;
@@ -84,6 +81,10 @@
 		margin: auto 0 0;
 	}
 
+	.socials a:hover {
+		filter: grayscale(100%) brightness(80%) sepia(300%) hue-rotate(50deg) saturate(500%);
+	}
+
 	.links {
 		flex-direction: row;
 		flex-grow: 1;
@@ -92,6 +93,10 @@
 
 	.links ul {
 		margin-left: 20%;
+	}
+
+	.links ul li a:hover {
+		color: var(--limeGreen);
 	}
 
 	.links ul li:last-of-type {
