@@ -65,7 +65,6 @@
 
 	.picture {
 		position: relative;
-		/*width: clamp(100%, 100% + 5vw, 120%);*/
 		align-self: center;
 		width: 120%;
 		height: 100%;

@@ -14,10 +14,9 @@ export const Navbar = () => {
 		{ path: '#', name: 'Careers' },
 	]
 	const [open, setOpen] = useState(false)
-	useEffect(() => {
-		window.addEventListener('resize', () => {
-			window.screen.width >= 1024 && setOpen(false)
-		}, [])
+
+	window.addEventListener('resize', () => {
+		window.screen.width >= 1024 && setOpen(false)
 	})
 
 	return (
